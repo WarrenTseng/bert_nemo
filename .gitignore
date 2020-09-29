@@ -1,3 +1,4 @@
 data/*
 checkpoint/*
 output/*
+.ipynb_checkpoints/*
