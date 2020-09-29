@@ -15,17 +15,14 @@ Unzipping to ./data
 ---
 The pre-trained checkpoints of BERT-base, BERT-large and Megatron-BERT can be downloaded from <a href="https://ngc.nvidia.com/">NGC</a>.
 - BERT-base: https://ngc.nvidia.com/catalog/models/nvidia:bertbaseuncasedfornemo
-</br>
-Unzipping to ./checkpoint/bert
-</br>
+
 - BERT-large: https://ngc.nvidia.com/catalog/models/nvidia:bertlargeuncasedfornemo
-</br>
-Unzipping to ./checkpoint/bert_large 
-</br>
+
 - Megatron-BERT: https://ngc.nvidia.com/catalog/models/nvidia:megatron_bert_345m
 (replace "v0.1_cased/zip" with "v0.1_uncased/zip" in the pulling command.)
 </br>
-Unzipping to ./checkpoint/megatron_bert
+</br>
+Unzipping to ./checkpoint/ENCODER_NAME
 
 
 
