@@ -28,7 +28,7 @@ Unzipping to ./checkpoint/ENCODER_NAME
 ### Results
 ---
 - After 3 epochs of finetuning, we can get the results below:
-</br>
+
 | Encoder | No. of params | Accuracy |
 | --- | --- | --- |
 | BERT-base     | 109 m | 0.948 |
