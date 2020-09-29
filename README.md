@@ -2,7 +2,7 @@
 
 ### Environment
 ---
-Docker container of NeMo pulled from <a href="https://ngc.nvidia.com/">NVIDIA GPU Cloud (NGC)</a>
+Docker container of NeMo (v0.11) pulled from <a href="https://ngc.nvidia.com/">NVIDIA GPU Cloud (NGC)</a>
 ### Checkpoints
 ---
 The pre-trained checkpoints of BERT-base, BERT-large and Megatron-BERT can be downloaded from <a href="https://ngc.nvidia.com/">NGC</a>.
