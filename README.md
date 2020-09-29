@@ -20,10 +20,11 @@ The pre-trained checkpoints of BERT-base, BERT-large and Megatron-BERT can be do
 
 ### Results
 ---
-|  |  |
-| --- | ---- |
-|  |  |
-|  |  |
+| Encoder | No. of params | Accuracy |
+| --- | --- | --- |
+| BERT-base     | 109 m | 0.948 |
+| BERT-large    | 335 m | 0.956 |
+| Megatron-BERT | 334 m | 0.967 |
 
 ### Reference:
 ---
