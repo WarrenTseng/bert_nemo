@@ -1,2 +1,2 @@
 # bert_nemo
-Finetuning BERT with NeMo
+Finetuning BERT-base, BERT-large and Megatron-BERT with NeMo
