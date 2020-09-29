@@ -8,14 +8,23 @@ Docker container of NeMo (v0.11) pulled from <a href="https://ngc.nvidia.com/">N
 ### Dataset
 ---
 <a href="https://www.kaggle.com/bittlingmayer/amazonreviews/home">Amazon reviews for sentiment analysis</a>
+</br>
+Unzipping to ./data
 
 ### Checkpoints
 ---
 The pre-trained checkpoints of BERT-base, BERT-large and Megatron-BERT can be downloaded from <a href="https://ngc.nvidia.com/">NGC</a>.
 - BERT-base: https://ngc.nvidia.com/catalog/models/nvidia:bertbaseuncasedfornemo
+</br>
+Unzipping to ./checkpoint/bert
 - BERT-large: https://ngc.nvidia.com/catalog/models/nvidia:bertlargeuncasedfornemo
+</br>
+Unzipping to ./checkpoint/bert_large 
 - Megatron-BERT: https://ngc.nvidia.com/catalog/models/nvidia:megatron_bert_345m
-, replace "v0.1_cased/zip" with "v0.1_uncased/zip" in the pulling command.
+(replace "v0.1_cased/zip" with "v0.1_uncased/zip" in the pulling command.)
+</br>
+Unzipping to ./checkpoint/megatron_bert
+
 
 
 ### Results
