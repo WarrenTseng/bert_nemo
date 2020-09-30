@@ -27,13 +27,21 @@ Unzipping to ./checkpoint/ENCODER_NAME
 
 ### Results
 ---
-- We randomly select 36000 reviews from train.ft.txt as training data, 20000 reviews from test.ft.txt as validation data. After 3 epochs of finetuning, we can get the results below:
+- 1. We randomly select 36000 reviews from train.ft.txt as training data, 20000 reviews from test.ft.txt as validation data. After 3 epochs of finetuning, we can get the results below:
 
 | Encoder | No. of params | Accuracy |
 | --- | --- | --- |
 | BERT-base     | 109 m | 0.948 |
 | BERT-large    | 335 m | 0.956 |
 | Megatron-BERT | 334 m | 0.967 |
+
+- 2. We randomly select 360 reviews from train.ft.txt as training data, 20000 reviews from test.ft.txt as validation data. After 10 epochs of finetuning, we can get the results below:
+
+| Encoder | No. of params | Accuracy |
+| --- | --- | --- |
+| BERT-base     | 109 m | 0.889 |
+| BERT-large    | 335 m | 0.920 |
+| Megatron-BERT | 334 m | 0.955 |
 
 ### Reference:
 ---
